@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button Click</title>
+<style>
+  #box1 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+  }
+  #box2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+  }
+</style>
+</head>
+<body>
+
+<div id="box1">Div 1</div>
+<div id="box2">Div 2</div>
+<button onclick="modifyDiv()">Click Me</button>
+
+<script>
+  function modifyDiv() {
+    var box1 = document.getElementById("box1");
+    var box2 = document.getElementById("box2");
+
+    // Hide box1
+    box1.style.display = "none";
+
+    // Modify box2's CSS
+    box2.style.backgroundColor = "lightyellow";
+    box2.innerHTML = "Modified Div 2";
+  }
+</script>
+
+</body>
+</html>

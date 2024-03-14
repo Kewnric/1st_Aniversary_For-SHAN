@@ -87,6 +87,40 @@ h2 {
     position: fixed;
 }
 
+@media screen and (max-width: 768px) {
+    .animation_0 {
+        height: 200px;
+        width: 280px;
+        margin-top: 100px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .img_2 {
+        margin-left: 70%;
+    }
+
+    .btn_0 {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    p {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    h2 {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .container {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
 @keyframes love {
     0% {
         transform: scale(1);
@@ -114,7 +148,4 @@ h2 {
 
 .letter:nth-child(2n) {
     color: #00d2d3;
-}
-.container{
-    margin-left: 580px;
 }

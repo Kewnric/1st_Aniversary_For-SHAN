@@ -8,59 +8,59 @@ body{
     /*background-color: #2596be;*/
 }
 .animation_0{
-    background-image: url(ani_1.gif);
-    background-color: red;
+    background-image: url(ani_3.gif);
     height: 350px;
     width: 490px;
     background-repeat: no-repeat;
-    margin-top: 160px;
-    margin-left: 580px;
+    margin-top: 185px;
+    margin-left: 645px;
     position: fixed;
+    z-index: 10;
 }
 .img_1{
     position: fixed;
     background-size: contain;
-    background-image: url(/img_1.png);
+    background-image: url(/ani_12.gif);
     height: 220px;
     width: 220px;
     background-repeat: no-repeat;
-    margin-top: -40px;
-    margin-left: -40px;
+    margin-top: 0px;
+    margin-left: -5px;
 }
 .img_2{
     position: fixed;
     background-size: contain;
-    background-image: url(img_1.png);
+    background-image: url(/ani_12.gif);
     height: 220px;
     width: 220px;
     background-repeat: no-repeat;
-    margin-top: -40px;
-    margin-left: 1555px;
+    margin-top: 0px;
+    margin-left: 1490px;
 }
 .img_3{
     position: fixed;
     background-size: contain;
-    background-image: url(img_1.png);
+    background-image: url(/ani_12.gif);
     height: 220px;
     width: 220px;
     background-repeat: no-repeat;
-    margin-top: 620px;
-    margin-left: -40px;
+    margin-top: 580px;
+    margin-left: -5px;
 }
 .img_4{
     position: fixed;
     background-size: contain;
-    background-image: url(img_1.png);
+    background-image: url(/ani_12.gif);
     height: 220px;
     width: 220px;
     background-repeat: no-repeat;
-    margin-top: 620px;
-    margin-left: 1555px;
+    margin-top: 580px;
+    margin-left: 1490px;
 }
 .btn_0{
     position: fixed;
     margin-top: 460px;
-    margin-left: 729px;
+    margin-left: 710px;
     padding: 15px 32px;
     font-family: cursive;
     border-radius: 20px 20px;
@@ -68,6 +68,7 @@ body{
     font-size: 15px;
     background-color: pink;
     opacity: 65%;
+    z-index: 100;
 }
 .btn_0:hover{
     opacity: 100%;
@@ -75,9 +76,15 @@ body{
 p{
     position: fixed;
     margin-top: 468px;
-    margin-left: 805px;
+    margin-left: 795px;
     font-size: 27px;
     font-family: cursive;
     opacity: 0%;
     transition: ease .6s;
+}
+h2{
+    font-size: 40px;
+    margin-top: 600px;
+    margin-left: 650px;
+    position: fixed;
 }

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+body{
+    background-color: #ffe4e4;
+}
+.img_1{
+    background-image: url(ani_18.gif);
+    height: 350px;
+    width: 490px;
+    background-repeat: no-repeat;
+    margin-top: 185px;
+    margin-left: 445px;
+    position: fixed;
+    z-index: 10;
+}
+.img_2{
+    background-image: url(ani_17.gif);
+    height: 240px;
+    width: 240px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 185px;
+    margin-left: 845px;
+    position: fixed;
+    z-index: 10;
+
+}
+.img_3{
+
+}
+.img_4{
+
+}
+.img_5{
+
+}
